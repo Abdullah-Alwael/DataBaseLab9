@@ -2,13 +2,16 @@
 ### This system is designed to help car dealers to manage their warehouse and track where the parts are in various warehouses.
 ## The parts model:
 The parts model will store the name and price of the part that enteres the system  
+  
 every car part is stored in only one warehouse  
 every warehouse has many car parts  
+  
 every car part can fit many car models  
 every car model can have many car parts  
+  
 every car part is owned by only one owner  
 every owner can own many car parts  
-
+  
 ## The owner model:
 The owner model will store each owner of the part that ordered it  
 no other relationships with car model or warehouse  
